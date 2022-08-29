@@ -1,0 +1,49 @@
+.start-container{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+
+}
+
+.input-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 25%;
+    box-shadow: inset 3px 3px 4px #eaeaea;
+border: 1px solid rgba(0, 0, 0, 0.15);
+border-radius: 25px;
+padding: 1.5% 3%;
+
+}
+
+
+
+.input-container input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: vazir;
+    padding-left: 2%;
+    
+    
+}
+
+.input-container button{
+    width: 22%;
+    padding:2% 3%;
+    border: none;
+    border-radius: 25px;
+    font-family: vazir;
+    cursor: pointer;
+    background-color: #1d959b;
+    color: #ffffff;
+    font-size: 10px;
+    
+}
+
+.input-container button:hover{
+    padding-left: 4%;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,161 @@
+@media (min-width:400px) {
+    .slider{
+        width:100%;
+        height: 90vh;
+        overflow: hidden;
+      
+    
+    }
+
+    
+.slide{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 0.5s ease;
+    
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.current{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.content{
+    width: 80%;
+    position: absolute;
+    top: 23rem;
+    right: 3rem;
+    text-align: right;
+    font-family: vazir;
+    color: #ffff;
+    padding: 0.7rem;
+    background: rgba(91, 90, 90, 0.4);
+    animation: slide-up 1s ease .5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    border-radius: 6px;
+   
+}
+
+@keyframes slide-up {
+    0%{
+        visibility: visible;
+        top:23rem
+    }
+    100%{
+        visibility: visible;
+        top: 4.5rem;
+    }
+}
+
+.content h2{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 2.5rem;
+    padding: 0.5rem;
+    color: #f5b921;
+
+}
+
+.content p{
+    font-size: 14px;
+    font-weight: 200;
+    text-justify: auto;
+    padding: 0.5rem;
+}
+
+.content .current{
+    opacity: 1;
+}
+
+.arrow-right{
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 3px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 20rem;
+    right: 2rem;
+    z-index: 3;
+    color: #ffff;
+    background: transparent;
+
+}
+
+.arrow-left{
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 3px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 20rem;
+   left: 2rem;
+    z-index: 3;
+    color: #ffff;
+    background: transparent;
+
+}
+
+ .arrow-right:hover{
+    background: #ffff;
+    color: #777;
+}
+
+.arrow-left:hover{
+    background: #ffff;
+    color: rgb(75, 74, 74);
+}
+
+
+    
+}
+
+
+@media (min-width:600px) {
+    
+    .slider{
+        top:75px
+    }
+
+    
+.content{
+    width: 50%;
+    position: absolute;
+    top: 9rem;
+    right: 8rem;
+    text-align: right;
+    font-family: vazir;
+   
+
+}
+
+@keyframes slide-up {
+    0%{
+        visibility: visible;
+        top:23rem
+    }
+    100%{
+        visibility: visible;
+        top: 8rem;
+    }
+}
+
+}
+
+
+
+
+
+
+

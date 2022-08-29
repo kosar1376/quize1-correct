@@ -1,0 +1,138 @@
+@font-face{
+    font-family: sence;
+    src: url("../fonts/sence.ttf")
+    }
+    @font-face {
+        font-family: vazir;
+        src: url("../fonts/Vazir.woff")
+    }
+    
+    
+    @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Inknut+Antiqua:wght@500&family=Mouse+Memoirs&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@1,500&display=swap');
+    
+    *{padding: 0;
+    margin: 0;
+    }
+    
+    
+    
+    @media (min-width:400px) {
+        .navbar{
+            padding: 18px 5px;
+            width: 100%;
+           position: fixed;
+            background-color:rgba(31, 81, 86, 0.65);
+            /* rgba(47, 45, 45, 0.5) */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3;
+          
+        }
+    
+        .nav-logo{
+            width:4%;
+            color: #f5b921;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 1.1rem;
+            font-family: 'Poppins', sans-serif;
+            margin-left: 4%;
+        }
+    
+    
+        
+    .nav-items{
+        display: flex;
+        list-style: none;
+        text-align: center;
+        justify-content: flex-end;
+        width: 75%;
+        margin-right: 0;
+        
+    }
+    
+    
+    .nav-item{
+        padding-left: 1.9%;
+    }
+    
+    .nav-item a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.6rem;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-family:vazir ;
+        
+        
+    }
+    
+    .nav-item a:hover{
+        background-color:#1d959b ;
+        font-size: 0.72rem;
+
+        
+    }
+    
+    
+    .icon-color{
+        color: rgb(170, 126, 15);
+    }
+    
+    
+        
+    }
+    
+    
+    @media (min-width:600px) {
+    
+        .navbar{
+            padding: 20px 5px;
+        }
+    
+        .nav-logo{
+            width:6%;
+            font-size: 1.5rem;
+           
+        }
+    
+      
+    
+        .nav-item a{
+          
+            font-size: 0.88rem;
+            padding: 7px 20px;
+            border-radius: 5px;
+            transition: 0.12s all linear;
+           
+            
+            
+        }
+
+        .nav-item a:hover{
+            background-color:#1d959b ;
+            font-size: 0.8rem;
+    
+            
+        }
+        .nav-logo{
+            width:4%;
+          
+          
+            font-size: 1.7rem;
+            font-family: 'Poppins', sans-serif;
+        }
+    
+
+        
+    
+      
+    
+      
+    
+        
+    }
+    

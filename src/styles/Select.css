@@ -1,0 +1,27 @@
+.select-container{
+    width: 40%;
+    margin-top: 7%;
+    margin-left: 10%;
+    
+    display: flex;
+    align-items: center;
+   
+    margin-bottom: 3%;
+}
+
+.select-container i{
+    color:red;
+    margin-left: 5%;
+    
+}
+
+
+.select-container select{
+    width:160px;
+    margin-left: 5%;
+
+}
+
+
+
+
